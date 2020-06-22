@@ -1,0 +1,88 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+header{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container{
+  background-color: #393e46;
+  padding: 2rem;
+}
+
+.score{
+  border: 5px solid white;
+  width: 20%;
+  margin: 0 auto;
+  padding: 1rem;
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  position: relative;
+}
+
+.badge{
+  font-size: 2rem;
+  background-color: #d92027;
+}
+
+.user{
+  position: absolute;
+  left: -25px;
+  top: 35px;
+}
+
+.comp{
+  position: absolute;
+  top: 35px;
+  right: -35px;
+}
+
+.message{
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.images{
+  /* display: inline-block; */
+  text-align: center;
+
+}
+
+.game-pics{
+  width: 20%;
+  padding: 20px;
+}
+
+.game-pics:hover{
+  background-color: grey;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+/* .game-pics:active{
+  background-color: black;
+} */
+.action p{
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.correct:hover{
+  background-color: green;
+}
+
+.incorrect:hover{
+  background-color: red;
+}
